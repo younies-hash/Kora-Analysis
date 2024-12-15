@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "kora-analysis",
+          "appId": "1:797116333615:android:e96d8557e52747da69d0da",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "kora-analysis",
+          "configurations": {
+            "android": "1:797116333615:android:e96d8557e52747da69d0da",
+            "ios": "1:797116333615:ios:27e0b5c782324ee769d0da",
+            "macos": "1:797116333615:ios:27e0b5c782324ee769d0da",
+            "web": "1:797116333615:web:e736f4d53ee4963e69d0da",
+            "windows": "1:797116333615:web:71cb6651c9796f6c69d0da"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
